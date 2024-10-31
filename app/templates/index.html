@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SimpleDevPortfolio</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Passionate developer, crafting impactful code for diverse industries.">
+    <meta name="keywords" content="developer, coding, portfolio, software development, software architecture">
+    <meta name="author" content="SIDDARTH BHAVE">
+
+    <meta property="og:title" content="Software Development Engineer Portfolio">
+    <meta property="og:description" content="Passionate developer, crafting impactful code for diverse industries.">
+    <meta property="og:image:url" content="YOUR_OG_IMAGE_URL">
+    <meta property="og:image:secure_url" content="YOUR_OG_IMAGE_URL" />
+    <meta property="og:url" content="YOUR_WEBSITE_URL">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Simple Dev Portfolio">
+    <meta name="twitter:description" content="Passionate developer, crafting impactful code for diverse industries.">
+    <meta name="twitter:image" content="YOUR_OG_IMAGE_URL">
+
+    <link rel="canonical" href="YOUR_WEBSITE_URL">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+
+<body>
+    <section class="main-section">
+        <header class="header-sub-section">
+            <div>
+                <h1 style="font-size: 36px; margin-top: 0;">Siddarth Bhave</h1>
+                <h2 style="font-size: 16px; margin-top: 5px;">Information Management Grad @ <br> University of
+                    Washington, Seattle</h2>
+                <h3 style="opacity: 0.7; margin-top: 20px;">Full-Send Software Development Engineer and Data Engineer,
+                    Wanna be F1 Strategist</h3>
+                <h4 style="opacity: 0.7; margin-top: 20px;">DevOps | System Observability | Data Science</h4>
+
+                <ul class="navbar-menu">
+                    <li><a href="#about"> >ABOUT</a></li>
+                    <li><a href="#experience"> >EXPERIENCE</a></li>
+                    <li><a href="#projects"> >PROJECTS</a></li>
+                </ul>
+            </div>
+
+            <ul class="social-media">
+                <li>
+                    <a href="mailto:siddarthbhave@gmail.com" target="_blank">
+                        <img style="width: 1.5rem; height: 1.5rem;"
+                            src="{{ url_for('static', filename='images/email.svg') }}" alt="GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/siddarthbhave" target="_blank">
+                        <img style="width: 1.5rem; height: 1.5rem;"
+                            src="{{ url_for('static', filename='images/github.svg') }}" alt="GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/johndoe/" target="_blank">
+                        <img style="width: 1.5rem; height: 1.5rem;"
+                            src="{{ url_for('static', filename='images/linkedin.svg') }}" alt="Linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/johndoedev/" target="_blank">
+                        <img style="width: 1.5rem; height: 1.5rem;"
+                            src="{{ url_for('static', filename='images/instagram.svg') }}" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.x.com/johndoedev/" target="_blank">
+                        <img style="width: 1.5rem; height: 1.5rem;"
+                            src="{{ url_for('static', filename='images/x.svg') }}" alt="X">
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+        <main id="about" class="main-sub-section">
+            <p>
+                Graduate Student at the University of Washington (Go Huskies!). I'm an ardent Software Developer and
+                Engineer. I derive
+                a keen sense of thrill and eagerness to learn and develop Software Applications and Products. I'm a
+                passionate
+                competitive programmer too. I obtain many fun and fascinating insights from it and try to implement them
+                to solve
+                complex development concepts and problems. For instance, at Morgan Stanley, I engineered a highly
+                available and scalable
+                data pipeline that streams 140 million Kafka messages in real time by applying a clever queuing strategy
+                inspired by a
+                programming competition. I like to learn new things to their fullest extent and do more with the help of
+                what I've
+                learned.
+            </p>
+            <br>
+            <p>
+                Having worked as a developer at Morgan Stanley, I wanted to explore the fields of Data Science and
+                Product Management. I'm currently delving deeper into Data Science and Product Management in my graduate
+                studies at the University of Washington, Seattle.
+            </p>
+
+            <br>
+
+            <hr>
+
+            <section id="experience" class="experience" style="color: white;">
+                <div>
+                    <ul style="list-style: none; padding-left: 0">
+                        <li class="job" style="margin-top: 40px">
+                            <a href="https://xyzcorp.com/" target="_blank">
+                                <div class="job-name">Software Developer @ XYZ Corp</div>
+                                <div class="job-period">Dec 2022 - Present</div>
+                                <div>
+                                    <p class="job-description">
+                                        As a Full Stack Developer, I contribute to a proprietary technology optimizing
+                                        e-commerce on XYZ platform. Team empowerment led to a 30% reduction in manual
+                                        task
+                                        time, expanding the platform to all XYZ-supported markets boosted revenue,
+                                        and aligning business strategies with data insights enhanced decision-making and
+                                        market position.
+                                    </p>
+                                </div>
+                            </a>
+
+                            <ul class="skill-list">
+                                <li class="skill">Typescript</li>
+                                <li class="skill">Javascript</li>
+                                <li class="skill">Python</li>
+                                <li class="skill">FastAPI</li>
+                                <li class="skill">Snowflake</li>
+                                <li class="skill">Node.js</li>
+                                <li class="skill">NestJS</li>
+                                <li class="skill">Angular</li>
+                                <li class="skill">AWS</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+
+            <section id="projects" style="margin-top: 20px; margin-bottom: 25px;">
+                <div>
+                    <h3>Projects & Contributions</h3>
+                    <ul style="color: rgb(226, 232, 240); list-style: none; padding-left: 0px">
+                        <li><a href="#"><b>Project 1</b> contributor</a></li>
+                        <li><a href="#"><b>Project 2</b> contributor</a>
+                        </li>
+                        <li><a href="#"><b>Project 3</b> contributor</a></li>
+                        <li><a href="#"><b>Project 4</b> creator</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </section>
+</body>
+
+
+</html>

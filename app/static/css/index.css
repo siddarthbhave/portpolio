@@ -1,0 +1,153 @@
+body {
+    background-image: linear-gradient(to right, rgb(15, 23, 42), rgba(15, 23, 42, 0.9));
+    font-family: 'Fira Code', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(226, 232, 240);
+}
+
+hr {
+    color: rgb(226, 232, 240);
+    opacity: 0.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: rgb(226, 232, 240);
+    margin: 0;
+}
+
+.main-section {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding-left: 0;
+    letter-spacing: 4px;
+}
+
+.navbar-menu li {
+    margin-top: 10px;
+}
+
+.navbar-menu a:hover {
+    color: white;
+}
+
+.header-sub-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 30rem;
+    padding-top: 6rem;
+    align-self: flex-start;
+    top: 0;
+    position: sticky;
+    overflow-y: auto;
+}
+
+.main-sub-section {
+    margin-left: 4rem;
+    margin-right: auto;
+    max-width: 32rem;
+    padding-top: 6rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.05rem;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.main-sub-section b {
+    color: rgba(94, 234, 212, 0.75);
+    font-weight: 500;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 15px;
+}
+
+.social-media li a:hover {
+    color: rgb(226, 232, 240);
+}
+
+.job {
+    margin-top: 50px;
+}
+
+.job:hover {
+    cursor: pointer;
+}
+
+.job-name {
+    font-weight: bold;
+}
+
+.job-period {
+    color: rgb(100 116 139);
+    font-weight: bold;
+    font-size: .85rem;
+}
+
+.job-description {
+    font-size: .75rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    list-style: none;
+}
+
+.skill {
+    cursor: default;
+    margin-right: 0.375rem;
+    margin-top: 0.5rem;
+    color: rgb(94 234 212);
+    background-color: rgba(45, 212, 191, .1);
+    border-radius: 50px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1090px) {
+    .main-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .header-sub-section {
+        max-width: 30rem;
+        padding-top: 1rem;
+        align-self: center;
+        position: inherit;
+    }
+
+    .main-sub-section {
+        margin-left: auto;
+        padding-top: 1rem;
+        max-width: 30rem;
+    }
+}
