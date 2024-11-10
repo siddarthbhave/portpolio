@@ -94,6 +94,20 @@ p {
 
 .job-name {
     font-weight: bold;
+    /* display: flex; */
+    float: left;
+}
+
+.job-company {
+    color: rgb(94 234 212);
+    font-weight: bold;
+    /* display: flex; */
+    overflow: left;
+}
+
+#wrapper {
+    /* display: flex; */
+    overflow: hidden;
 }
 
 .job-period {
@@ -150,4 +164,13 @@ p {
         padding-top: 1rem;
         max-width: 30rem;
     }
+}
+
+.portfolio_pic1 {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
 }
