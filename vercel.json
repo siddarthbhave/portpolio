@@ -1,15 +1,6 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "app.py",
-            "use": "@vercel/python"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/app.py"
-        }
-    ]
+  "framework": "nextjs",
+  "buildCommand": "cd portfolio && npm install && npm run build",
+  "outputDirectory": "portfolio/.next",
+  "installCommand": "echo 'install handled in buildCommand'"
 }
